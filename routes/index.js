@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express 012 by Dockerfile 8' });
+  res.render('index', { title: 'Express 012 by Dockerfile 9' });
 });
 
 router.post('/', function(req, res,nex){
