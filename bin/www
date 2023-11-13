@@ -8,11 +8,24 @@ var app = require('../app');
 var debug = require('debug')('sealnotebynodejs:server');
 var http = require('http');
 
+const inspector = require('inspector');
+function isInDebugMode() {
+  return inspector.url() !== undefined;
+}
+
+var portNumber = 80
+var isDebug = isInDebugMode();
+if (isDebug) {
+  portNumber = 3000
+} 
+console.log('isDebug = ' + isDebug +', using port:' + portNumber);
+
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '80');
+// var port = normalizePort(process.env.PORT || '80');
+var port = normalizePort(process.env.PORT || portNumber);
 app.set('port', port);
 
 /**
