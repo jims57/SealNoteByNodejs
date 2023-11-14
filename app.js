@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'site')));
+app.use(express.static(path.join(__dirname, 'flutter_web_app')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
