@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var apisRounter = require('./routes/api');
 
 var app = express();
 
@@ -22,6 +23,7 @@ app.use(express.static(path.join(__dirname, 'flutter_web_app')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/api',apisRounter);
 
 // catch 404 and forward to error handler//
 app.use(function(req, res, next) {
