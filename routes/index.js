@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res,nex){
-  res.render('index', { title: 'Express' });
+  res.sendStatus(200);
+  // res.render('index', { title: 'Express' });
 });
 
 module.exports = router;
