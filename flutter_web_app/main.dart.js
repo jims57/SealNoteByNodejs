@@ -68141,7 +68141,7 @@ return r},
 $S:421}
 A.Fq.prototype={
 T(a){var s=null
-return new A.ve(new A.wz(A.t_(new A.oP('<iframe src="https://f.kdocs.cn/g/FokQmwUu"></iframe>',new A.Zh(),s),s,s),s),"fwfh_webview",s)}}
+return new A.ve(new A.wz(A.t_(new A.oP('<iframe src="https://f.kdocs.cn/g/FokQmwUu"></iframe>',new A.Zh(),s),s,s),s),"\u5fd7\u9177\u4e92\u8054ICP\u4e1a\u52a1\u4ee3\u529e\u670d\u52a1",s)}}
 A.Zh.prototype={
 $0(){return new A.vs(null,A.a([],t.vf),$)},
 $S:422}
