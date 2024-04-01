@@ -1,11 +1,11 @@
 {
-    "name": "seal_note_3",
-    "short_name": "seal_note_3",
+    "name": "zcoo_icp_site",
+    "short_name": "zcoo_icp_site",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project2.",
+    "description": "This is a site for ICP biz, which is used to include Kdoc Form.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
